@@ -1,0 +1,153 @@
+{
+  "n_estaciones": 32,
+  "n_caracteristicas": 22,
+  "seleccion_k": [
+    {
+      "k": 2,
+      "inercia": 341.29,
+      "estabilidad_ARI": 1.0,
+      "silhouette": 0.4322,
+      "davies_bouldin": 0.9023
+    },
+    {
+      "k": 3,
+      "inercia": 236.5,
+      "estabilidad_ARI": 0.673,
+      "silhouette": 0.4217,
+      "davies_bouldin": 0.8676
+    },
+    {
+      "k": 4,
+      "inercia": 184.82,
+      "estabilidad_ARI": 0.733,
+      "silhouette": 0.3435,
+      "davies_bouldin": 0.9924
+    },
+    {
+      "k": 5,
+      "inercia": 144.69,
+      "estabilidad_ARI": 0.729,
+      "silhouette": 0.3659,
+      "davies_bouldin": 0.7499
+    },
+    {
+      "k": 6,
+      "inercia": 115.42,
+      "estabilidad_ARI": 0.812,
+      "silhouette": 0.3428,
+      "davies_bouldin": 0.8886
+    },
+    {
+      "k": 7,
+      "inercia": 95.2,
+      "estabilidad_ARI": 0.789,
+      "silhouette": 0.3425,
+      "davies_bouldin": 0.7876
+    },
+    {
+      "k": 8,
+      "inercia": 85.17,
+      "estabilidad_ARI": 0.739,
+      "silhouette": 0.3258,
+      "davies_bouldin": 0.7828
+    }
+  ],
+  "k_optimo_silhouette": 2,
+  "k_elegido": 4,
+  "kmeans": {
+    "silhouette": 0.3435,
+    "davies_bouldin": 0.9924,
+    "tamanos": {
+      "0": 7,
+      "1": 11,
+      "2": 6,
+      "3": 8
+    }
+  },
+  "jerarquico": {
+    "silhouette": 0.3124,
+    "davies_bouldin": 1.038
+  },
+  "acuerdo_kmeans_vs_jerarquico_ARI": 0.8171,
+  "estabilidad_ARI_media": 0.733,
+  "estabilidad_ARI_min": 0.3988,
+  "ARI_vs_arquetipo_simulado": 0.6063,
+  "cruce_grupo_arquetipo": {
+    "centro": {
+      "0": 7,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "corredor": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 8
+    },
+    "portal": {
+      "0": 0,
+      "1": 6,
+      "2": 2,
+      "3": 0
+    },
+    "residencial": {
+      "0": 0,
+      "1": 5,
+      "2": 4,
+      "3": 0
+    }
+  },
+  "nombres_grupos": {
+    "0": "Destino / centro (pico PM)",
+    "1": "Origen (pico AM) - volumen alto",
+    "2": "Origen (pico AM) - volumen bajo",
+    "3": "Corredor mixto (picos AM y PM)"
+  },
+  "miembros": {
+    "Destino / centro (pico PM)": [
+      "Av. Jiménez",
+      "Calle 19",
+      "Calle 26",
+      "Calle 34",
+      "Las Aguas",
+      "Museo del Oro",
+      "Universidades"
+    ],
+    "Origen (pico AM) - volumen alto": [
+      "Alcalá",
+      "Calle 142",
+      "Marly",
+      "Mazurén",
+      "Portal 80",
+      "Portal Eldorado",
+      "Portal Norte",
+      "Portal Sur",
+      "Portal Tunal",
+      "Portal Usme",
+      "Ricaurte"
+    ],
+    "Origen (pico AM) - volumen bajo": [
+      "Av. Chile",
+      "Banderas",
+      "Portal Américas",
+      "Portal Suba",
+      "Prado",
+      "Toberín"
+    ],
+    "Corredor mixto (picos AM y PM)": [
+      "Calle 100",
+      "Calle 127",
+      "Calle 45",
+      "Calle 57",
+      "Calle 63",
+      "Calle 72",
+      "Calle 76",
+      "Héroes"
+    ]
+  },
+  "pca_varianza_explicada": [
+    0.613,
+    0.2827
+  ]
+}

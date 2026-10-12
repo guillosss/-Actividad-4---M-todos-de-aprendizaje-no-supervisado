@@ -1,0 +1,33 @@
+estacion,grupo,nombre_grupo,hora_pico_am,hora_pico_pm,volumen_prom_hora
+Av. Jiménez,0,Destino / centro (pico PM),7,18,2104
+Calle 19,0,Destino / centro (pico PM),7,18,2431
+Calle 26,0,Destino / centro (pico PM),7,18,2098
+Calle 34,0,Destino / centro (pico PM),7,18,3173
+Las Aguas,0,Destino / centro (pico PM),7,18,2388
+Museo del Oro,0,Destino / centro (pico PM),7,18,2064
+Universidades,0,Destino / centro (pico PM),7,18,1956
+Alcalá,1,Origen (pico AM) - volumen alto,7,18,1283
+Calle 142,1,Origen (pico AM) - volumen alto,7,18,1170
+Marly,1,Origen (pico AM) - volumen alto,7,18,911
+Mazurén,1,Origen (pico AM) - volumen alto,7,18,979
+Portal 80,1,Origen (pico AM) - volumen alto,7,18,2353
+Portal Eldorado,1,Origen (pico AM) - volumen alto,7,18,2433
+Portal Norte,1,Origen (pico AM) - volumen alto,7,18,2630
+Portal Sur,1,Origen (pico AM) - volumen alto,7,18,3211
+Portal Tunal,1,Origen (pico AM) - volumen alto,7,18,2118
+Portal Usme,1,Origen (pico AM) - volumen alto,7,18,2515
+Ricaurte,1,Origen (pico AM) - volumen alto,7,18,1012
+Av. Chile,2,Origen (pico AM) - volumen bajo,7,18,849
+Banderas,2,Origen (pico AM) - volumen bajo,7,18,641
+Portal Américas,2,Origen (pico AM) - volumen bajo,7,18,2195
+Portal Suba,2,Origen (pico AM) - volumen bajo,7,18,2275
+Prado,2,Origen (pico AM) - volumen bajo,7,18,605
+Toberín,2,Origen (pico AM) - volumen bajo,7,18,829
+Calle 100,3,Corredor mixto (picos AM y PM),7,18,2105
+Calle 127,3,Corredor mixto (picos AM y PM),7,18,1148
+Calle 45,3,Corredor mixto (picos AM y PM),7,18,1642
+Calle 57,3,Corredor mixto (picos AM y PM),7,18,1235
+Calle 63,3,Corredor mixto (picos AM y PM),7,18,1873
+Calle 72,3,Corredor mixto (picos AM y PM),7,18,1365
+Calle 76,3,Corredor mixto (picos AM y PM),7,18,1394
+Héroes,3,Corredor mixto (picos AM y PM),7,18,1923

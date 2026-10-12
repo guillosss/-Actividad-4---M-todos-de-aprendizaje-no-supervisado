@@ -1,0 +1,25 @@
+k óptimo por silhouette: 2 | k elegido: 4
+ k  inercia  estabilidad_ARI  silhouette  davies_bouldin
+ 2   341.29            1.000      0.4322          0.9023
+ 3   236.50            0.673      0.4217          0.8676
+ 4   184.82            0.733      0.3435          0.9924
+ 5   144.69            0.729      0.3659          0.7499
+ 6   115.42            0.812      0.3428          0.8886
+ 7    95.20            0.789      0.3425          0.7876
+ 8    85.17            0.739      0.3258          0.7828
+K-Means: {'silhouette': 0.3435, 'davies_bouldin': 0.9924, 'tamanos': {0: 7, 1: 11, 2: 6, 3: 8}}
+Jerárquico: {'silhouette': 0.3124, 'davies_bouldin': 1.038}
+ARI kmeans vs jerárquico: 0.8171
+Estabilidad ARI media/min: 0.733 0.3988
+ARI vs arquetipo simulado: 0.6063
+PCA varianza: [0.613, 0.2827]
+
+Destino / centro (pico PM) (7): Av. Jiménez, Calle 19, Calle 26, Calle 34, Las Aguas, Museo del Oro, Universidades
+
+Origen (pico AM) - volumen alto (11): Alcalá, Calle 142, Marly, Mazurén, Portal 80, Portal Eldorado, Portal Norte, Portal Sur, Portal Tunal, Portal Usme, Ricaurte
+
+Origen (pico AM) - volumen bajo (6): Av. Chile, Banderas, Portal Américas, Portal Suba, Prado, Toberín
+
+Corredor mixto (picos AM y PM) (8): Calle 100, Calle 127, Calle 45, Calle 57, Calle 63, Calle 72, Calle 76, Héroes
+
+Cruce grupo x arquetipo: {'centro': {0: 7, 1: 0, 2: 0, 3: 0}, 'corredor': {0: 0, 1: 0, 2: 0, 3: 8}, 'portal': {0: 0, 1: 6, 2: 2, 3: 0}, 'residencial': {0: 0, 1: 5, 2: 4, 3: 0}}
